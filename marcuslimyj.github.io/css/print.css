@@ -1,0 +1,50 @@
+* {
+  color: black;
+  background: transparent;
+  font-size: 12pt;
+  font-family: serif;
+}
+
+  @page {
+    margin: 0.5in;
+  }
+
+#container {
+  margin: 0;
+  width: 100%;
+}
+
+nav {
+  display: none;
+}
+
+section {
+  float: none;
+  width: 100%;
+}
+
+aside {
+  position: static;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+a{
+text-decorator: none;
+}
+
+a[href$=".html"]{
+display: none;
+}
+
+
+a[href^="https://"]:after, a[href^="https://"]: after {content: "(" attr(fref)")";}
+
+
+footer {
+  color: #999;
+  border-top: 1px solid #ccc;
+  clear: both;
+}
