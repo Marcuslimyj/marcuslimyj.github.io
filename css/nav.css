@@ -1,0 +1,38 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  color: #333;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+
+}
+
+li > a {
+    display: inline-block;
+    padding: 16px;
+    background: #eee;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: rgb(91,183,94);
+}
+
+li > a:visited {
+  color: rgb(244,151,52);
+}
+
+li > a:hover {
+    background: rgb(17,84,142); /*blue*/
+    color: white;
+    border: 1px solid rgb(14,69,132); /*dark blue*/
+}
